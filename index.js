@@ -6,11 +6,17 @@ let dogImages = document.querySelectorAll('.dog-image')
 for(let i = 0; i < dogImages.length; i++){
 	dogImages[i].style.borderRadius = '35px'
     dogImages[i].style.flip 
-
 }
  
-footer.style.borderStyle = 'dotted'
-footer.style.color = 'green'
+let dogDisc = document.querySelectorAll('.dog-discription')
+for(let i = 0; i < dogDisc.length; i++){
+	dogDisc[i].style.bo = '35px'
+ 
+}
+
+let footer = document.querySelector('.footer')
+footer.style.borderStyle = 'Solid'
+footer.style.color = 'blue'
 
 
 
